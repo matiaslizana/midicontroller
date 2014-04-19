@@ -1,0 +1,68 @@
+{
+	"controller":
+		{
+			"id":"pedal",
+            "description":"Pedal",
+            "vendorId":0,
+            "productId":0,
+            "claz":0,
+            "subclass":0,
+            "protocol":0
+		}		
+	,
+    "devices":[
+        {
+            "id":"privia",
+            "description":"Casio Privia PX-130",
+            "intf":1,
+            "vendorId":1999,
+            "productId":26627,
+            "claz":0,
+            "subclass":0,
+            "protocol":0
+        },
+        {
+            "id":"gaia",
+            "description":"Roland GAIA-SH01",
+            "intf":4,
+            "vendorId":1410,
+            "productId":273,
+            "claz":255,
+            "subclass":0,
+            "protocol":255
+        },
+        {
+            "id":"junodi",
+            "description":"Roland JUNO-DI",
+            "intf":1,
+            "vendorId":1410,
+            "productId":248,
+            "claz":255,
+            "subclass":0,
+            "protocol":255
+        }
+    ],
+    "setlist":[
+        {
+            "title":"Prova tema",
+            "fragments":[
+                {
+                    "id":"Fragment 1",
+                    "configList":
+                    [
+                        {"device":"privia","messages":["903A30"]},
+                        {"device":"gaia","messages":["902340"]}
+                    ]
+                },
+                {
+                    "id":"Fragment 2",
+                    "configList":
+                    [
+                        {"device":"privia","messages":["904A3E"]},
+                        {"device":"gaia","messages":["903A30"]}                     
+                    ]
+                }
+            ]
+        }
+    ]
+}

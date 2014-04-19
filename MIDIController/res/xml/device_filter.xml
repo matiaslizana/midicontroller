@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- TODO: Different keyboards to manage -->
+    <!-- CASIO PRIVIA PX-130 -->
+    <usb-device vendor-id="1999" product-id="26627" class="0" subclass="0" protocol="0" />
+    <!-- ROLAND GAIA SH-01 -->
+    <usb-device vendor-id="1410" product-id="273" class="255" subclass="0" protocol="255" />
+    <!-- ROLAND JUNO DI -->
+    <usb-device vendor-id="1410" product-id="248" class="255" subclass="0" protocol="255" />    
+</resources>

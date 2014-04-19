@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background" >
+
+    <ListView
+        android:id="@+id/devicesLayout"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/background" >
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/screenLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textSong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="58dp"
+            android:layout_marginTop="35dp"
+            android:text="Song"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/fontSong" />
+
+        <TextView
+            android:id="@+id/textFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/textSong"
+            android:layout_below="@+id/textSong"
+            android:layout_marginTop="18dp"
+            android:text="Fragment"
+            android:textColor="@color/font_color_2"
+            android:textSize="@dimen/fontFragment" />
+
+        <TextView
+            android:id="@+id/textLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/textFragment"
+            android:layout_below="@+id/textFragment"
+            android:layout_marginTop="69dp"
+            android:gravity="right"
+            android:text="LOG"
+            android:textColor="@color/font_color_2" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

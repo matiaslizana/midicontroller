@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="fontSong">48px</dimen>
+    <dimen name="fontFragment">32px</dimen>
+</resources>

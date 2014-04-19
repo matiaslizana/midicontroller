@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">MIDIController</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MIDIController</string>
+    <string name="device_icon">An image of the Device</string>
+    <color name="background">#000000</color>
+    <color name="font_color">#FFFFFF</color>
+    <color name="font_color_2">#BBBBBB</color>
+    <color name="font_color_3">#0044FF</color>
+
+</resources>
