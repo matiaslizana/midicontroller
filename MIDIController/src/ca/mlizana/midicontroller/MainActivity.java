@@ -169,7 +169,6 @@ public class MainActivity extends Activity {
 		}
 		currentSong = config.getSetlist().get(songIndex);
 		currentFragment = currentSong.getFragments().get(fragmentIndex);
-		//TODO: Change view
 		updateView();
 		updateConfig();
 	}
